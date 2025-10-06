@@ -4,12 +4,11 @@ Aplicación Flutter para gestionar usuarios con una interfaz moderna y funcional
 
 ## Características
 
-- ✅ **Bandeja de Usuarios**: Tabla completa con listado de usuarios
-- ✅ **Modal de Creación/Edición**: Formulario completo con validaciones
-- ✅ **Búsqueda y Filtros**: Buscar por nombre/email y filtrar por rol
-- ✅ **Operaciones CRUD**: Crear, leer, actualizar y eliminar usuarios
-- ✅ **Validaciones**: Formularios con validación de datos
-- ✅ **Diseño Responsivo**: Interfaz adaptable y moderna
+- **Bandeja de Usuarios**: Tabla completa con listado de usuarios
+- **Modal de Creación/Edición**: Formulario completo con validaciones
+- **Operaciones CRUD**: Crear, leer, actualizar y eliminar usuarios
+- **Validaciones**: Formularios con validación de datos
+- **Diseño Responsivo**: Interfaz adaptable y moderna
 
 ## Estructura del Proyecto
 
@@ -30,24 +29,18 @@ El modelo `Usuario` incluye los siguientes campos:
 - **id**: Identificador único
 - **nombre**: Nombre completo del usuario
 - **email**: Correo electrónico
-- **telefono**: Número de teléfono
-- **rol**: Rol del usuario (Administrador, Usuario, Supervisor, Invitado)
-- **fechaCreacion**: Fecha de creación del registro
+- **rol**: Rol del usuario (Administrador, Usuario)
 - **activo**: Estado del usuario (activo/inactivo)
 
 ## Funcionalidades
 
 ### Bandeja de Usuarios
 - Tabla con todos los campos del usuario
-- Búsqueda en tiempo real por nombre o email
-- Filtro por rol
-- Contador de usuarios
-- Indicadores visuales de estado y rol
 - Botones de acción (editar/eliminar)
 
 ### Modal de Usuario
 - Formulario completo con validaciones
-- Campos: nombre, email, teléfono, rol, estado
+- Campos: nombre, email, rol, estado
 - Validación de email con regex
 - Validación de campos requeridos
 - Selector de rol con dropdown
